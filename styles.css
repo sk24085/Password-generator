@@ -68,3 +68,17 @@ label{
 .btn:hover{
     background-color: #FFFFFF33;
 }
+@media screen and (max-width:500px) {
+    .container{
+        width:300px;
+    }
+    .password-display{
+        width:200px;
+    }
+    .form{
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 1rem;
+        column-gap: 1rem;
+    }  
+}
